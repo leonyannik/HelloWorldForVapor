@@ -12,8 +12,8 @@ public func routes(_ router: Router) throws {
         return "Hello, world!"
     }
     
-    router.get("leon") { req in
-        return "Saludos, mira, parece que esto está funcionando:   :)   :D"
+    router.get("Ricky") { req in
+        return "Saludos Ricky, mira, parece que esto está funcionando:   :)   :D"
     }
 
     // Example of configuring a controller
