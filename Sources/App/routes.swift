@@ -15,6 +15,10 @@ public func routes(_ router: Router) throws {
     router.get("Ricky") { req in
         return "Saludos Ricky, mira, parece que esto está funcionando:   :)   :D"
     }
+    
+    router.get("JuanPablo") { req in
+        return "Saludos JP, mira, parece que esto está funcionando:   :)   :D"
+    }
 
     // Example of configuring a controller
     let todoController = TodoController()
