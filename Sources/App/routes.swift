@@ -4,7 +4,7 @@ import Vapor
 public func routes(_ router: Router) throws {
     // Basic "It works" example
     router.get { req in
-        return "It works!"
+        return "It works!\nThe thing is that this will be my page\n\nName: León Yannik López Rojas"
     }
     
     // Basic "Hello, world!" example
