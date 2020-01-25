@@ -16,8 +16,8 @@ public func routes(_ router: Router) throws {
         return "Saludos Ricky, mira, parece que esto está funcionando:   :)   :D"
     }
     
-    router.get("JuanPablo") { req in
-        return "Saludos JP, mira, parece que esto está funcionando:   :)   :D"
+    router.get("juanPablo") { req in
+        return "Hola Juan Pablo!!!!!\n\nNo inventes man, me costó 4 días no manches\n pero mira ya pude.\n\n\nCorre con el Nginx para que pueda tener el fregado candadito... Y la app de Vapor corre consupervisor para que si muere o algo el servidor, luego luego que arranque, comience la app. :D\n ahora supongo que debo empezar a hacer como un blog o algo lol."
     }
 
     // Example of configuring a controller
